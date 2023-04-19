@@ -5,6 +5,10 @@ body{
 
 }
 
-.card-body{
-    display: flex;
+.card-text{
+    margin-bottom: 20px;
+}
+
+.card:hover{
+   scale:1.1;
 }

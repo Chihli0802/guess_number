@@ -1,7 +1,7 @@
 //bootstrap 套件
 @import "./node_modules/bootstrap/scss/functions";
-//位置一定要在functions和bootstrap.scss中間
-@import "./stylesheet/helpers/variables";
+//要使用的 位置一定要在functions和bootstrap.scss中間
+@import "./stylesheet/helper/variables";
 //bootstrap 套件
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
 

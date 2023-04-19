@@ -19,25 +19,29 @@
 
     <div class="w-auto p-3 vh-100 bg-secondary " style="background-color: #eee;">
         <!-- card -->
-        <div class="card text-center mx-auto rounded border border-3" style="width: 18rem;">
-            <div class="card-body mt-50">
-                <h5 id="changeText" class="card-title">猜一個數字</h5>
-                <div class="d-flex justify-content-center">
-                    <p id="minNum " class="card-text">1</p>
-                    <span class="card-text">-</span>
-                    <p id="maxNum" class="card-text">100</p>
+        <div class="card text-center mx-auto rounded border border-3 h-75 mt-5"  style="width: 18rem;">
+            <div class="card-body ">
+                <h1 id="changeText" class="card-title mt-5 ">猜一個數字</h1>
+                <div class="d-flex justify-content-center mt-5" id="textArea">
+                    <p id="minNum" class="card-text h2 mx-4">1</p>
+                    <span class="card-text h2" id="line">-</span>
+                    <p id="maxNum" class="card-text h2 mx-4">100</p>
                 </div>
+                 <input id="input" type="number" class="w-50 mx-auto mt-5">
+                 <button type="button" class="btn btn-success w-50 mx-auto mt-2" id="btn">回答</button>
+                <button type="button" class="btn btn-outline-success w-50 mx-auto mt-2" id="refreshbtn">再玩一次</button>
             </div>
-            <input id="input" type="number" class="">
-            <button type="button" class="btn btn-outline-dark btn-sm" id="btn">回答</button>
+            
         </div>
     </div>
 
+    
 
 
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="./main.js"></script>
 </body>
 
